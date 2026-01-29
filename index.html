@@ -15,13 +15,12 @@
     <nav class="navbar">
         <div class="logo">
             <img src="./image/branding/Logo.jpg" alt="" class="logo-img">
-            Rayden Viz
+            <h3>Rayden Viz</h3>
         </div>
 
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
 
-            <!-- Portfolio Dropdown -->
             <li class="dropdown">
                 <a href="#portfolio" class="dropdown-toggle">Portfolio ▾</a>
                 <ul class="dropdown-menu">
@@ -33,8 +32,17 @@
                 </ul>
             </li>
 
-            <li><a href="#prices">Prices</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li class="dropdown">
+                <a href="#info" class="dropdown-toggle">Info ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#service">Service & Prices</a></li>
+                    <li><a href="#prices">Payments</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </li>
+
+            <li><a href="https://trakteer.id/rayden_gaze">Tip</a></li>
+
         </ul>
     </nav>
 
@@ -43,6 +51,7 @@
         <img src="./image/branding/Logo.jpg" alt="Logo" class="hero-logo">
         <h1>Rayden Viz</h1>
         <p>Graphic Designer || Video Editor || Roblox Builder</p>
+        <p class="description">I showcase my recent works here.</p>
     </section>
 
     <!-- Portfolio -->
@@ -95,35 +104,41 @@
     </section>
 
     <!-- Contact -->
-    <section id="prices" class="section">
+    <section id="info" class="section">
         <div class="container">
             <div class="grid contact-grid">
 
-                <div class="item text-box">
+                <div id="service" class="item text-box">
                     <h1>Services & Prices</h1>
-                    <p>Graphic Design <i>Start from (Rp50k/$3)</i></p>
                     <p>Carrd Design <i>Start from (Rp75k/$4.5)</i></p>
+                    <p>Other Design <i>Start from (Rp50k/$3)</i></p>
                     <p>Video Editing <i>Start from (Rp75k/$4.5)</i></p>
                     <p>Roblox Building <i>Start from (Rp150k/$9)</i></p>
-                    <i class="LastUpdated">Last update : 2026-01-29</i>
+                    <p class="LastUpdated">Last update : 2026-01-29</p>
                 </div>
 
-                <div class="item text-box">
+                <div id="payment" class="item text-box">
                     <h1>Payments</h1>
                     <div class="item-payment"><img src="./image/payments/dana.png"></div>
                     <div class="item-payment"><img src="./image/payments/gopay.png"></div>
                     <div class="item-payment"><img src="./image/payments/PayPal.png"></div>
                 </div>
 
-                <div class="item text-box" id="contact">
+                <div id="contact" class="item text-box">
                     <h1>Contacts</h1>
-                    <p>Instagram: <i><a href="https://www.instagram.com/rayden.viz">@rayden.viz</a></i></p>
-                    <p>Email: <i><a href="mailto:raydencontact44@email.com">raydencontact44@email.com</a></i></p>
+                    <p>Instagram: <a href="https://www.instagram.com/rayden.viz">@rayden.viz</a></p>
+                    <p>WhatsApp: <a href="wa.me/6285657210492?text=Saya+mau+order">+62 856-5721-0492</a></p>
+                    <p>Email: <a href="mailto:raydencontact44@email.com">raydencontact44@email.com</a></p>
                 </div>
 
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="footer-minimal">
+        <p>• Website by Rayden Viz •</p>
+    </footer>
 
     <!-- Lightbox -->
     <div class="lightbox" id="lightbox">
@@ -134,5 +149,3 @@
 </body>
 
 </html>
-
-
