@@ -309,11 +309,13 @@ body {
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .lightbox img {
-    max-width: 90%;
-    max-height: 90%;
+    padding-top: 6%;
+    max-width: 85%;
+    max-height: 85%;
 }
 
 /* Mobile */
